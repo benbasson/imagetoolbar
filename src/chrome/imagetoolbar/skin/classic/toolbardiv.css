@@ -1,0 +1,22 @@
+@namespace "http://www.w3.org/1999/xhtml";
+
+#mozilla-image-toolbar-div
+{
+  border-top: 1px solid #FFFFFF !important;
+  border-left: 1px solid #FFFFFF !important;
+  border-right: 1px solid #808080 !important;
+  border-bottom: 1px solid #808080 !important;
+  background-color: -moz-Dialog !important;
+  color: -moz-DialogText !important;
+  font: message-box !important;
+  padding: 0 !important;
+  margin: 0 !important; 
+  position: absolute !important;
+  width: auto !important; /* prevent pages altering the width of the toolbar */
+}
+
+@media print {
+  #mozilla-image-toolbar-div {
+    display: none;
+  }
+}

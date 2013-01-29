@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Настройки Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Основные">
+<!ENTITY imagetoolbar.settings.customise "Внешний вид">
+<!ENTITY imagetoolbar.settings.advanced "Дополнительно">
+<!ENTITY imagetoolbar.settings.general.saveimages "Папкой для изображений использовать:">
+<!ENTITY imagetoolbar.settings.general.default "папку загрузок Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "указанную папку:">
+<!ENTITY imagetoolbar.settings.general.browse "Обзор...">
+<!ENTITY imagetoolbar.settings.general.default.key "г">
+<!ENTITY imagetoolbar.settings.general.custom.key "а">
+<!ENTITY imagetoolbar.settings.general.browse.key "о">
+<!ENTITY imagetoolbar.settings.save.click "Нажатие на кнопке сохранения должно:">
+<!ENTITY imagetoolbar.settings.save.prompt "предлагать указать расположение и имя файла">
+<!ENTITY imagetoolbar.settings.save.autosave "автоматически сохранить в установленную папку">
+<!ENTITY imagetoolbar.settings.save.prompt.key "р">
+<!ENTITY imagetoolbar.settings.save.autosave.key "м">
+<!ENTITY imagetoolbar.settings.customise.display "Показывать сл. кнопки:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Использовать маленькие значки">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Показывать подписи к значкам">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "м">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "ы">
+<!ENTITY imagetoolbar.settings.advanced.size "Размер изображения">
+<!ENTITY imagetoolbar.settings.advanced.width "Минимальная ширина (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Минимальная высота (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL инвертирует действие">
+<!ENTITY imagetoolbar.settings.advanced.position "Позиция">
+<!ENTITY imagetoolbar.settings.advanced.top "Сдвиг сверху (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Сдвиг слева (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Относительно курсора">
+<!ENTITY imagetoolbar.settings.advanced.delay "Задержка открытия">
+<!ENTITY imagetoolbar.settings.advanced.time "миллисекунд">

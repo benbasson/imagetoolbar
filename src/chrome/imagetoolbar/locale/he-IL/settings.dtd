@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "הגדרות Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "כללי">
+<!ENTITY imagetoolbar.settings.customise "התאמה אישית">
+<!ENTITY imagetoolbar.settings.advanced "מתקדם">
+<!ENTITY imagetoolbar.settings.general.saveimages "תיקיית תמונה אמורה להיות:">
+<!ENTITY imagetoolbar.settings.general.default "תיקיית היעד של הורדות פיירפוקס:">
+<!ENTITY imagetoolbar.settings.general.custom "תיקייה מותאמת אישית:">
+<!ENTITY imagetoolbar.settings.general.browse "דפדף...">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "לחיצה על כפתור השמירה אמורה:">
+<!ENTITY imagetoolbar.settings.save.prompt "לדרוש מיקום ושם קובץ">
+<!ENTITY imagetoolbar.settings.save.autosave "לשמור אוטומטית לתיקיית ברירת המחדל">
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+<!ENTITY imagetoolbar.settings.customise.display "הראה הכפתורים הבאים:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "השתמש בצלמיות קטנות">
+<!ENTITY imagetoolbar.settings.customise.textlabels "הראה תויות טקסט">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "גודל תמונה">
+<!ENTITY imagetoolbar.settings.advanced.width "רוחב מינימלי (פיקסל)">
+<!ENTITY imagetoolbar.settings.advanced.height "גובה מינימלי (פיקסל)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL דורס את זה">
+<!ENTITY imagetoolbar.settings.advanced.position "מיקום">
+<!ENTITY imagetoolbar.settings.advanced.top "פיצוי עליון (פיקסל)">
+<!ENTITY imagetoolbar.settings.advanced.left "פיצוי שמאלי (פיקסל)">
+<!ENTITY imagetoolbar.settings.advanced.relative "ביחס לסמן">
+<!ENTITY imagetoolbar.settings.advanced.delay "השהיית פתיחה">
+<!ENTITY imagetoolbar.settings.advanced.time "זמן (מילי שניות)">

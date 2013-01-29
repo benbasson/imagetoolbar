@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Opţiuni Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Salvare">
+<!ENTITY imagetoolbar.settings.customise "Butoane">
+<!ENTITY imagetoolbar.settings.advanced "Expunere">
+<!ENTITY imagetoolbar.settings.general.saveimages "Dosarul de salvare a imaginilor:">
+<!ENTITY imagetoolbar.settings.general.default "Dosarul de transferuri Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "un alt dosar:">
+<!ENTITY imagetoolbar.settings.general.browse "Alegere...">
+<!ENTITY imagetoolbar.settings.general.default.key "d">
+<!ENTITY imagetoolbar.settings.general.custom.key "u">
+<!ENTITY imagetoolbar.settings.general.browse.key "A">
+<!ENTITY imagetoolbar.settings.save.click "La apăsarea butonului de salvare:">
+<!ENTITY imagetoolbar.settings.save.prompt "stabileşte locul şi numele fişierului">
+<!ENTITY imagetoolbar.settings.save.autosave "salvează automat în dosarul implicit">
+<!ENTITY imagetoolbar.settings.save.prompt.key "s">
+<!ENTITY imagetoolbar.settings.save.autosave.key "i">
+<!ENTITY imagetoolbar.settings.customise.display "Afişează butoanele următoare:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Pictograme micuţe">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Expune etichete-text">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "P">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "E">
+<!ENTITY imagetoolbar.settings.advanced.size "Mărime imagine">
+<!ENTITY imagetoolbar.settings.advanced.width "Lăţime minimă (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Înălţime minimă (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Ignorare cu CTRL">
+<!ENTITY imagetoolbar.settings.advanced.position "Poziţie">
+<!ENTITY imagetoolbar.settings.advanced.top "Pe verticală (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Pe orizontală (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Faţă de cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Moment arătare">
+<!ENTITY imagetoolbar.settings.advanced.time "Timp (ms)">

@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Tallenna">
+<!ENTITY imagetoolbar.copy "Kopioi">
+<!ENTITY imagetoolbar.print "Tulosta">
+<!ENTITY imagetoolbar.info "Tietoja">
+<!ENTITY imagetoolbar.folder "Kansio">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

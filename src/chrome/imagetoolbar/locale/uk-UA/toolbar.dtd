@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Зберегти">
+<!ENTITY imagetoolbar.copy "Копіювати">
+<!ENTITY imagetoolbar.print "Друк">
+<!ENTITY imagetoolbar.info "Інформація">
+<!ENTITY imagetoolbar.folder "Тека">
+<!ENTITY imagetoolbar.save.key "З">
+<!ENTITY imagetoolbar.copy.key "К">
+<!ENTITY imagetoolbar.print.key "Д">
+<!ENTITY imagetoolbar.info.key "І">
+<!ENTITY imagetoolbar.folder.key "Т">

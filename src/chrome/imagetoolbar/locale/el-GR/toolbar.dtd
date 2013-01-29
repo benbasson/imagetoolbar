@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Αποθήκευση">
+<!ENTITY imagetoolbar.copy "Αντιγραφή">
+<!ENTITY imagetoolbar.print "Εκτύπωση">
+<!ENTITY imagetoolbar.info "Πληροφορίες">
+<!ENTITY imagetoolbar.folder "Φάκελος">
+<!ENTITY imagetoolbar.save.key "θ">
+<!ENTITY imagetoolbar.copy.key "Α">
+<!ENTITY imagetoolbar.print.key "Ε">
+<!ENTITY imagetoolbar.info.key "Π">
+<!ENTITY imagetoolbar.folder.key "Φ">

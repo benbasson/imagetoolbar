@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Налаштування Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Загальні">
+<!ENTITY imagetoolbar.settings.customise "Особисті">
+<!ENTITY imagetoolbar.settings.advanced "Розширені">
+<!ENTITY imagetoolbar.settings.general.saveimages "Зберігати зображення у:">
+<!ENTITY imagetoolbar.settings.general.default "Тека завантажень Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "особиста тека:">
+<!ENTITY imagetoolbar.settings.general.browse "Обрати...">
+<!ENTITY imagetoolbar.settings.general.default.key "З">
+<!ENTITY imagetoolbar.settings.general.custom.key "О">
+<!ENTITY imagetoolbar.settings.general.browse.key "О">
+<!ENTITY imagetoolbar.settings.save.click "При натисканні на кнопку Зберегти:">
+<!ENTITY imagetoolbar.settings.save.prompt "запитати назву і теку">
+<!ENTITY imagetoolbar.settings.save.autosave "автоматично зберегти у стандартну теку">
+<!ENTITY imagetoolbar.settings.save.prompt.key "П">
+<!ENTITY imagetoolbar.settings.save.autosave.key "А">
+<!ENTITY imagetoolbar.settings.customise.display "Відображати наступні кнопки:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Використовувати маленькі значки">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Відображати текстові підписи">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "Р">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "Т">
+<!ENTITY imagetoolbar.settings.advanced.size "Розмір зображення">
+<!ENTITY imagetoolbar.settings.advanced.width "Мінімальна ширина (пікс)">
+<!ENTITY imagetoolbar.settings.advanced.height "Мінімальна висота (пікс)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL - відміна">
+<!ENTITY imagetoolbar.settings.advanced.position "Розташування">
+<!ENTITY imagetoolbar.settings.advanced.top "Відступ зверху (пікс)">
+<!ENTITY imagetoolbar.settings.advanced.left "Відступ зліва (пікс)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Відносно курсора">
+<!ENTITY imagetoolbar.settings.advanced.delay "Затримка відкриття">
+<!ENTITY imagetoolbar.settings.advanced.time "Час (мс)">

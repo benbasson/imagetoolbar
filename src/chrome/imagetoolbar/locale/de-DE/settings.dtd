@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Image Toolbar - Einstellungen">
+<!ENTITY imagetoolbar.settings.general "Allgemein">
+<!ENTITY imagetoolbar.settings.customise "Anpassen">
+<!ENTITY imagetoolbar.settings.advanced "Erweitert">
+<!ENTITY imagetoolbar.settings.general.saveimages "Download-Ordner für Grafiken:">
+<!ENTITY imagetoolbar.settings.general.default "Standard-Download-Ordner von Firefox benutzen">
+<!ENTITY imagetoolbar.settings.general.custom "Alle Grafiken in diesem Ordner abspeichern:">
+<!ENTITY imagetoolbar.settings.general.browse "Durchsuchen...">
+<!ENTITY imagetoolbar.settings.general.default.key "S">
+<!ENTITY imagetoolbar.settings.general.custom.key "O">
+<!ENTITY imagetoolbar.settings.general.browse.key "D">
+<!ENTITY imagetoolbar.settings.save.click "Beim Anklicken der Speichern-Schaltfläche:">
+<!ENTITY imagetoolbar.settings.save.prompt "Nach Speicherort und Dateinamen fragen">
+<!ENTITY imagetoolbar.settings.save.autosave "Automatisch im angegebenen Standardordner abspeichern">
+<!ENTITY imagetoolbar.settings.save.prompt.key "Z">
+<!ENTITY imagetoolbar.settings.save.autosave.key "A">
+<!ENTITY imagetoolbar.settings.customise.display "Folgende Schaltflächen anzeigen:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Kleine Symbole benutzen">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Text anzeigen">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "K">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "Mindestgröße für Grafiken:">
+<!ENTITY imagetoolbar.settings.advanced.width "px Mindestbreite">
+<!ENTITY imagetoolbar.settings.advanced.height "px Mindesthöhe">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Durch Drücken der Strg-Taste aufheben">
+<!ENTITY imagetoolbar.settings.advanced.position "Position:">
+<!ENTITY imagetoolbar.settings.advanced.top "px von oben">
+<!ENTITY imagetoolbar.settings.advanced.left "px von links">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativ zum Mauszeiger positionieren">
+<!ENTITY imagetoolbar.settings.advanced.delay "Anzeigeverzögerung:">
+<!ENTITY imagetoolbar.settings.advanced.time "Millisekunden">

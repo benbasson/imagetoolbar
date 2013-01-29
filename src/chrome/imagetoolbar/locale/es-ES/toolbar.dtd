@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.copy "Copiar">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.folder "Carpeta">
+<!ENTITY imagetoolbar.folder.key "r">
+<!ENTITY imagetoolbar.info "Información">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.print "Imprimir">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.save "Guardar">
+<!ENTITY imagetoolbar.save.key "G">

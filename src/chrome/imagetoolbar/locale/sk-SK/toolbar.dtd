@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Uložiť">
+<!ENTITY imagetoolbar.copy "Kopírovať">
+<!ENTITY imagetoolbar.print "Tlač">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Priečinok">
+<!ENTITY imagetoolbar.save.key "U">
+<!ENTITY imagetoolbar.copy.key "K">
+<!ENTITY imagetoolbar.print.key "T">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "P">

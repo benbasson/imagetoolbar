@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Billed-værktøjslinie indstillinger">
+<!ENTITY imagetoolbar.settings.general "Generelt">
+<!ENTITY imagetoolbar.settings.customise "Brugerdefineret">
+<!ENTITY imagetoolbar.settings.advanced "Avanceret">
+<!ENTITY imagetoolbar.settings.general.saveimages "Billedmappen angives til:">
+<!ENTITY imagetoolbar.settings.general.default "Firefox&apos; downloads-mappe">
+<!ENTITY imagetoolbar.settings.general.custom "en brugerdefineret mappe:">
+<!ENTITY imagetoolbar.settings.general.browse "Gennemse...">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "e">
+<!ENTITY imagetoolbar.settings.save.click "Klik på gem-knappen giver:">
+<!ENTITY imagetoolbar.settings.save.prompt "prompt for et sted og filnavn">
+<!ENTITY imagetoolbar.settings.save.autosave "gemmer automatisk til standardmappen">
+<!ENTITY imagetoolbar.settings.save.prompt.key "p">
+<!ENTITY imagetoolbar.settings.save.autosave.key "m">
+<!ENTITY imagetoolbar.settings.customise.display "Vis følgende knapper:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Brug små ikoner">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Vis tekstmærkater">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "i">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "t">
+<!ENTITY imagetoolbar.settings.advanced.size "Billedstørrelse">
+<!ENTITY imagetoolbar.settings.advanced.width "Minimumsbredde (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minimumshøjde (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL tilsidesætter dette">
+<!ENTITY imagetoolbar.settings.advanced.position "Position">
+<!ENTITY imagetoolbar.settings.advanced.top "Afstand fra toppen (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Afstand fra venstre (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativt til markøren">
+<!ENTITY imagetoolbar.settings.advanced.delay "Åbn-forsinkelse">
+<!ENTITY imagetoolbar.settings.advanced.time "Tid (ms)">

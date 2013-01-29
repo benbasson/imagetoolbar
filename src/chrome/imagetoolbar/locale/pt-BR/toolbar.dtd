@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Salvar">
+<!ENTITY imagetoolbar.copy "Copiar">
+<!ENTITY imagetoolbar.print "Imprimir">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Pasta">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "l">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "P">

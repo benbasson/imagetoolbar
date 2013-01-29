@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "حفظ">
+<!ENTITY imagetoolbar.copy "نسخ">
+<!ENTITY imagetoolbar.print "طباعة">
+<!ENTITY imagetoolbar.info "معلومات">
+<!ENTITY imagetoolbar.folder "مجلد">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

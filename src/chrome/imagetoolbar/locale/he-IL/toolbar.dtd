@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "שמור">
+<!ENTITY imagetoolbar.copy "העתק">
+<!ENTITY imagetoolbar.print "הדפס">
+<!ENTITY imagetoolbar.info "מידע">
+<!ENTITY imagetoolbar.folder "תיקייה">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

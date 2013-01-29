@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Salvare">
+<!ENTITY imagetoolbar.copy "Copiere">
+<!ENTITY imagetoolbar.print "Tipărire">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Dosar">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "T">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "D">

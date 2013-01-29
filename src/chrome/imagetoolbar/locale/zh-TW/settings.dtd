@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Image Toolbar 設定">
+<!ENTITY imagetoolbar.settings.general "一般設定">
+<!ENTITY imagetoolbar.settings.customise "介面自訂">
+<!ENTITY imagetoolbar.settings.advanced "進階設定">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "圖片資料夾要設為:">
+<!ENTITY imagetoolbar.settings.general.default "Firefox 的下載資料夾">
+<!ENTITY imagetoolbar.settings.general.custom "自訂資料夾:">
+<!ENTITY imagetoolbar.settings.general.browse "瀏覽...">
+
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "按下「儲存」按鈕要執行的動作:">
+<!ENTITY imagetoolbar.settings.save.prompt "提示輸入儲存位置和檔名">
+<!ENTITY imagetoolbar.settings.save.autosave "自動儲存至預設資料夾">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "工具列要顯示的按鈕:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "使用小圖示">
+<!ENTITY imagetoolbar.settings.customise.textlabels "顯示文字標籤">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "圖片大小">
+<!ENTITY imagetoolbar.settings.advanced.width "最小寬度 (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "最小高度 (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "按 CTRL 鍵不管此設定">
+<!ENTITY imagetoolbar.settings.advanced.position "顯示位置">
+<!ENTITY imagetoolbar.settings.advanced.top "從頂端偏移 (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "從左端偏移 (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "跟隨游標">
+<!ENTITY imagetoolbar.settings.advanced.delay "開啟延遲">
+<!ENTITY imagetoolbar.settings.advanced.time "毫秒 (1/1000秒)">

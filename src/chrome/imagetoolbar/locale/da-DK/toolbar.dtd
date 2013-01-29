@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Gem">
+<!ENTITY imagetoolbar.copy "Kopier">
+<!ENTITY imagetoolbar.print "Udskriv">
+<!ENTITY imagetoolbar.info "Information">
+<!ENTITY imagetoolbar.folder "Mappe">
+<!ENTITY imagetoolbar.save.key "G">
+<!ENTITY imagetoolbar.copy.key "O">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

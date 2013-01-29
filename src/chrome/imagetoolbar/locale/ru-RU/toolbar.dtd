@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Сохранить">
+<!ENTITY imagetoolbar.copy "Копировать">
+<!ENTITY imagetoolbar.print "Печать">
+<!ENTITY imagetoolbar.info "Информация">
+<!ENTITY imagetoolbar.folder "Папка">
+<!ENTITY imagetoolbar.save.key "С">
+<!ENTITY imagetoolbar.copy.key "К">
+<!ENTITY imagetoolbar.print.key "П">
+<!ENTITY imagetoolbar.info.key "И">
+<!ENTITY imagetoolbar.folder.key "П">

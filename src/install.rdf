@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>{A4732521-77D9-447E-A557-B279AC923F06}</em:id>
+    <em:version>0.6.12</em:version>
+    <em:name>Image Toolbar</em:name>
+    <em:description>Provides easy access to common image functions.</em:description>
+    <em:creator>Ben Basson</em:creator>
+    <em:homepageURL>http://www.cusser.net</em:homepageURL>
+    <em:optionsURL>chrome://imagetoolbar/content/settings.xul</em:optionsURL>
+    <em:type>2</em:type>
+    
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>18.0</em:minVersion>
+        <em:maxVersion>18.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <em:contributor>OldManRivuh</em:contributor>
+    <em:contributor>Gorgias</em:contributor>
+    <em:contributor>MonkeeSage</em:contributor>
+    <em:contributor>Velcrospud</em:contributor>
+    <em:contributor>Mimeryme</em:contributor>
+    <em:contributor>Asqueella</em:contributor>
+    <em:contributor>Thumper</em:contributor>
+    <em:contributor>Relativity_17</em:contributor>
+    <em:contributor>Jan Bourek (cs-CZ locale)</em:contributor>
+    <em:contributor>RAF (nl-NL locale)</em:contributor>
+    <em:contributor>Jojaba (fr-FR locale)</em:contributor>
+    <em:contributor>MatrixIsAllOver (it-IT locale)</em:contributor>
+    <em:contributor>Victory (ja-JP locale)</em:contributor>
+    <em:contributor>Proyecto Nave (es-ES locale)</em:contributor>
+    <em:contributor>Jose Sun (zh-TW locale)</em:contributor>
+    <em:contributor>Leszek Zyczkowski (pl-PL locale)</em:contributor>
+    <em:contributor>MorZilla (es-AR locale)</em:contributor>
+    
+  </Description>      
+</RDF>

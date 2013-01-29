@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Image Toolbar - ustawienia">
+<!ENTITY imagetoolbar.settings.general "Ogólne">
+<!ENTITY imagetoolbar.settings.customise "Dostosuj">
+<!ENTITY imagetoolbar.settings.advanced "Zaawansowane">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "Domyślny katalog zapisu obrazków">
+<!ENTITY imagetoolbar.settings.general.default "Domyślny katalog zapisu Firefoksa">
+<!ENTITY imagetoolbar.settings.general.custom "W katalogu">
+<!ENTITY imagetoolbar.settings.general.browse "Szukaj">
+
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "O">
+<!ENTITY imagetoolbar.settings.general.browse.key "S">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "Kliknięcie na przycisk Zapisz powoduje:">
+<!ENTITY imagetoolbar.settings.save.prompt "wyświetlenie zapytania o lokalizację i nazwę pliku">
+<!ENTITY imagetoolbar.settings.save.autosave "automatyczny zapis do domyślnego folderu">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "Z">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "Pokaż przyciski:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Użyj małych ikon">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Pokaż etykiety tekstowe">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "M">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "Wielkość obrazka">
+<!ENTITY imagetoolbar.settings.advanced.width "Minimalna szer. (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minimalna wys. (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Wciśnięcie Ctrl nie uwzględnia ustawień">
+<!ENTITY imagetoolbar.settings.advanced.position "Położenie paska narzędziowego">
+<!ENTITY imagetoolbar.settings.advanced.top "Odstęp od góry (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Odstęp z lewej strony (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relatywnie do pozycji kursora">
+<!ENTITY imagetoolbar.settings.advanced.delay "Opóźnienie wyświetlenia paska">
+<!ENTITY imagetoolbar.settings.advanced.time "Czas (ms)">

@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "저장">
+<!ENTITY imagetoolbar.copy "복사">
+<!ENTITY imagetoolbar.print "인쇄">
+<!ENTITY imagetoolbar.info "정보">
+<!ENTITY imagetoolbar.folder "폴더">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

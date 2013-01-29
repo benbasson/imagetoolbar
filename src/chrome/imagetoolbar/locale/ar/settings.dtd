@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "أعدادات شريط أدوات الصورة">
+<!ENTITY imagetoolbar.settings.general "عام">
+<!ENTITY imagetoolbar.settings.customise "تخصيص">
+<!ENTITY imagetoolbar.settings.advanced "متقدم">
+<!ENTITY imagetoolbar.settings.general.saveimages "يجب ان يكون مجلد الصور:">
+<!ENTITY imagetoolbar.settings.general.default "مجلد التحميل لفايرفوكس">
+<!ENTITY imagetoolbar.settings.general.custom "مجلد تخصيص">
+<!ENTITY imagetoolbar.settings.general.browse "تصفح">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "يجب ان يكون زر الحفظ:">
+<!ENTITY imagetoolbar.settings.save.prompt "تنبيه للموقع و اسم الملف">
+<!ENTITY imagetoolbar.settings.save.autosave "اِحفظ آلياً الى المجلد الاِفتراضى">
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+<!ENTITY imagetoolbar.settings.customise.display "اِظهر الأزرة التالية">
+<!ENTITY imagetoolbar.settings.customise.iconsize "اِستخدم أيقونات صغبرة">
+<!ENTITY imagetoolbar.settings.customise.textlabels "اِظهر علامات النص">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "حجم الصورة">
+<!ENTITY imagetoolbar.settings.advanced.width "أدنى عرض(بيكسل)د">
+<!ENTITY imagetoolbar.settings.advanced.height "أدنى ارتفاع(بيكسل)د">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "تجاوز ذلك">
+<!ENTITY imagetoolbar.settings.advanced.position "الوضع">
+<!ENTITY imagetoolbar.settings.advanced.top "أوفست أعلى(بيكسل">
+<!ENTITY imagetoolbar.settings.advanced.left "أوفست يسار(بيكسل">
+<!ENTITY imagetoolbar.settings.advanced.relative "اِرتباط بالفأرة">
+<!ENTITY imagetoolbar.settings.advanced.delay "تأجيل الفتح">
+<!ENTITY imagetoolbar.settings.advanced.time "الوقت بالثانية">

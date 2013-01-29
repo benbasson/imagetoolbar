@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Image Toolbar Ayarları">
+<!ENTITY imagetoolbar.settings.general "Genel">
+<!ENTITY imagetoolbar.settings.customise "Özelleştirme">
+<!ENTITY imagetoolbar.settings.advanced "Gelişmiş">
+<!ENTITY imagetoolbar.settings.general.saveimages "Resimlerin Kaydedileceği Klasör:">
+<!ENTITY imagetoolbar.settings.general.default "Firefox&apos;un varsayılan klasörü">
+<!ENTITY imagetoolbar.settings.general.custom "Tanımlanmış bir klasör:">
+<!ENTITY imagetoolbar.settings.general.browse "Gözat...">
+<!ENTITY imagetoolbar.settings.general.default.key "V">
+<!ENTITY imagetoolbar.settings.general.custom.key "T">
+<!ENTITY imagetoolbar.settings.general.browse.key "G">
+<!ENTITY imagetoolbar.settings.save.click "Kaydet butonuna basıldığında:">
+<!ENTITY imagetoolbar.settings.save.prompt "bir klasör ve dosya adı sor">
+<!ENTITY imagetoolbar.settings.save.autosave "sormadan varsayılan klasöre kaydet">
+<!ENTITY imagetoolbar.settings.save.prompt.key "S">
+<!ENTITY imagetoolbar.settings.save.autosave.key "V">
+<!ENTITY imagetoolbar.settings.customise.display "Bu butonları göster:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Küçük simgeler kullan">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Alt metinleri göster">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "S">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "M">
+<!ENTITY imagetoolbar.settings.advanced.size "Resim boyu">
+<!ENTITY imagetoolbar.settings.advanced.width "En az genişlik">
+<!ENTITY imagetoolbar.settings.advanced.height "En az yükseklik">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL tuşu etkisizleştirsin">
+<!ENTITY imagetoolbar.settings.advanced.position "Pozisyon">
+<!ENTITY imagetoolbar.settings.advanced.top "Üstten mesafe (piksel)">
+<!ENTITY imagetoolbar.settings.advanced.left "Soldan mesafe (piksel)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Fare kursörüne göre">
+<!ENTITY imagetoolbar.settings.advanced.delay "Açılış gecikmesi">
+<!ENTITY imagetoolbar.settings.advanced.time "Süre (milisaniye)">

@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "保存(S)">
+<!ENTITY imagetoolbar.copy "复制(C)">
+<!ENTITY imagetoolbar.print "打印(P)">
+<!ENTITY imagetoolbar.info "信息(I)">
+<!ENTITY imagetoolbar.folder "文件夹(F)">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

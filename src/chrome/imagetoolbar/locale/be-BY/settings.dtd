@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Налады Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Асноўныя">
+<!ENTITY imagetoolbar.settings.customise "Знешні выгляд">
+<!ENTITY imagetoolbar.settings.advanced "Дадаткова">
+<!ENTITY imagetoolbar.settings.general.saveimages "Тэчкай для малюнкаў выкарыстаць:">
+<!ENTITY imagetoolbar.settings.general.default "тэчку загрузак Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "паказаную тэчку:">
+<!ENTITY imagetoolbar.settings.general.browse "Агляд...">
+<!ENTITY imagetoolbar.settings.general.default.key "г">
+<!ENTITY imagetoolbar.settings.general.custom.key "а">
+<!ENTITY imagetoolbar.settings.general.browse.key "аб">
+<!ENTITY imagetoolbar.settings.save.click "Націск на кнопцы захавання павінна:">
+<!ENTITY imagetoolbar.settings.save.prompt "прапаноўваць паказаць размяшчэнне і імя файла">
+<!ENTITY imagetoolbar.settings.save.autosave "аўтаматычна захаваць ва ўсталяваную тэчку">
+<!ENTITY imagetoolbar.settings.save.prompt.key "р">
+<!ENTITY imagetoolbar.settings.save.autosave.key "м">
+<!ENTITY imagetoolbar.settings.customise.display "Паказваць сл. кнопкі:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Выкарыстаць маленькія значкі">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Паказваць подпісы да значкоў">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "м">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "ы">
+<!ENTITY imagetoolbar.settings.advanced.size "Памер малюнка">
+<!ENTITY imagetoolbar.settings.advanced.width "Мінімальная шырыня (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Мінімальная вышыня (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL інвертуе дзеянне">
+<!ENTITY imagetoolbar.settings.advanced.position "Пазіцыя">
+<!ENTITY imagetoolbar.settings.advanced.top "Зрух зверху (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Зрух злева (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Адносна курсора">
+<!ENTITY imagetoolbar.settings.advanced.delay "Затрымка адкрыцця">
+<!ENTITY imagetoolbar.settings.advanced.time "мілісекунд">

@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Speichern">
+<!ENTITY imagetoolbar.copy "Kopieren">
+<!ENTITY imagetoolbar.print "Drucken">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Ordner">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "K">
+<!ENTITY imagetoolbar.print.key "D">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "O">

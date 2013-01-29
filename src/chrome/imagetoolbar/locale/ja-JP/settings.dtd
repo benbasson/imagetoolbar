@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Image Toolbar 設定">
+<!ENTITY imagetoolbar.settings.general "全般">
+<!ENTITY imagetoolbar.settings.customise "カスタマイズ">
+<!ENTITY imagetoolbar.settings.advanced "詳細設定">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "画像の保存先:">
+<!ENTITY imagetoolbar.settings.general.default "Firefox のダウンロードフォルダ">
+<!ENTITY imagetoolbar.settings.general.custom "カスタムフォルダ:">
+<!ENTITY imagetoolbar.settings.general.browse "選択">
+
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "保存ボタンをクリックした場合:">
+<!ENTITY imagetoolbar.settings.save.prompt "保存場所とファイル名を問い合わせる">
+<!ENTITY imagetoolbar.settings.save.autosave "自動的にデフォルトのフォルダに保存する">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "以下のボタンを表示します:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "小さいアイコンを使用">
+<!ENTITY imagetoolbar.settings.customise.textlabels "テキストラベルを表示">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "画像サイズ">
+<!ENTITY imagetoolbar.settings.advanced.width "最小幅 (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "最小高さ (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL でこれを上書き">
+<!ENTITY imagetoolbar.settings.advanced.position "位置">
+<!ENTITY imagetoolbar.settings.advanced.top "上側オフセット (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "左側オフセット (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "カーソルからの相対位置">
+<!ENTITY imagetoolbar.settings.advanced.delay "開く時の遅延">
+<!ENTITY imagetoolbar.settings.advanced.time "時間 (ms)">

@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Definições do Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Geral">
+<!ENTITY imagetoolbar.settings.customise "Personalizar">
+<!ENTITY imagetoolbar.settings.advanced "Avançado">
+<!ENTITY imagetoolbar.settings.general.saveimages "A pasta de Imagem deve de ser:">
+<!ENTITY imagetoolbar.settings.general.default "Pasta de Transferência do Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "uma pasta personalizada:">
+<!ENTITY imagetoolbar.settings.general.browse "Navegar...">
+<!ENTITY imagetoolbar.settings.general.default.key "T">
+<!ENTITY imagetoolbar.settings.general.custom.key "m">
+<!ENTITY imagetoolbar.settings.general.browse.key "N">
+<!ENTITY imagetoolbar.settings.save.click "Clicar no botão guardar faz:">
+<!ENTITY imagetoolbar.settings.save.prompt "prompt para uma localização ou nome de ficheiro">
+<!ENTITY imagetoolbar.settings.save.autosave "guardar automáticamente para a pasta pré-definida">
+<!ENTITY imagetoolbar.settings.save.prompt.key "r">
+<!ENTITY imagetoolbar.settings.save.autosave.key "u">
+<!ENTITY imagetoolbar.settings.customise.display "Mostrar os seguintes botões">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Utilizar ícones pequenos">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Mostrar etiquetas de texto">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "z">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "q">
+<!ENTITY imagetoolbar.settings.advanced.size "Tamanho da imagem">
+<!ENTITY imagetoolbar.settings.advanced.width "Largura mínima (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Altura mínima (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL ultrapassa isto">
+<!ENTITY imagetoolbar.settings.advanced.position "Posição">
+<!ENTITY imagetoolbar.settings.advanced.top "Offset do topo (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Offset esquerdo (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativo ao cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Atraso">
+<!ENTITY imagetoolbar.settings.advanced.time "Tempo (ms)">

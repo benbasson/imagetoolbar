@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<!-- 
+  ***** BEGIN LICENSE BLOCK *****
+  Version: MPL 1.1/GPL 2.0/LGPL 2.1
+  
+  The contents of this file are subject to the Mozilla Public License Version
+  1.1 (the "License"); you may not use this file except in compliance with
+  the License. You may obtain a copy of the License at
+  http://www.mozilla.org/MPL/
+  
+  Software distributed under the License is distributed on an "AS IS" basis,
+  WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+  for the specific language governing rights and limitations under the
+  License.
+  
+  The Original Code is Image Toolbar.
+  
+  The Initial Developer of the Original Code is
+    Ben Basson <ben@basson.at>
+  Portions created by the Initial Developer are Copyright (C) 2005
+  the Initial Developer. All Rights Reserved.
+  
+  Contributor(s):
+    Ben Basson <ben@basson.at>
+  
+  Alternatively, the contents of this file may be used under the terms of
+  either the GNU General Public License Version 2 or later (the "GPL"), or
+  the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+  in which case the provisions of the GPL or the LGPL are applicable instead
+  of those above. If you wish to allow use of your version of this file only
+  under the terms of either the GPL or the LGPL, and not to allow others to
+  use your version of this file under the terms of the MPL, indicate your
+  decision by deleting the provisions above and replace them with the notice
+  and other provisions required by the GPL or the LGPL. If you do not delete
+  the provisions above, a recipient may use your version of this file under
+  the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/content/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://imagetoolbar/skin/"?>
+
+<!DOCTYPE window [
+  <!ENTITY % settingsDTD SYSTEM "chrome://imagetoolbar/locale/settings.dtd">
+    %settingsDTD;
+  <!ENTITY % toolbarDTD SYSTEM "chrome://imagetoolbar/locale/toolbar.dtd">
+    %toolbarDTD;
+]>
+
+<prefwindow id="imagetoolbar_settings"
+  type="prefwindow"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  buttons="accept, cancel"
+  title="&imagetoolbar.settings.title;"
+  style="min-width:360px; height:300px;">
+
+  <prefpane id="imagetoolbar_pane">
+
+    <!-- Externals -->
+    
+    <script type="application/x-javascript" 
+      src="chrome://imagetoolbar/content/settings.js"/>
+    
+    <stringbundle id="imagetoolbarStrings"
+      src="chrome://imagetoolbar/locale/imagetoolbar.properties"/>
+    
+    <preferences>
+  
+      <!-- General -->
+      
+      <preference id="imagetoolbar.behaviour.useFirefoxDir"
+        name="imagetoolbar.behaviour.useFirefoxDir"
+        type="bool"/>
+      <preference id="imagetoolbar.imageFolder"
+        name="imagetoolbar.imageFolder"
+        type="file"/>
+      <preference id="imagetoolbar.behaviour.autosave"
+        name="imagetoolbar.behaviour.autosave"
+        type="bool"/>
+      <preference id="imagetoolbar.behaviour.promptSuggest"
+        name="imagetoolbar.behaviour.promptSuggest"
+        type="bool"/>
+      
+      <!-- Customise -->
+      
+      <preference id="imagetoolbar.display.save"
+        name="imagetoolbar.display.save"
+        type="bool"/>
+      <preference id="imagetoolbar.display.copy"
+        name="imagetoolbar.display.copy"
+        type="bool"/>
+      <preference id="imagetoolbar.display.print"
+        name="imagetoolbar.display.print"
+        type="bool"/>
+      <preference id="imagetoolbar.display.info"
+        name="imagetoolbar.display.info"
+        type="bool"/>
+      <preference id="imagetoolbar.display.folder"
+        name="imagetoolbar.display.folder"
+        type="bool"/>
+      <preference id="imagetoolbar.display.smallIcons"
+        name="imagetoolbar.display.smallIcons"
+        type="bool"/>
+      <preference id="imagetoolbar.display.textlabels"
+        name="imagetoolbar.display.textlabels"
+        type="bool"/>
+           
+      <!-- Advanced -->
+      
+      <preference id="imagetoolbar.behaviour.minWidth"
+        name="imagetoolbar.behaviour.minWidth"
+        type="int"/>
+      <preference id="imagetoolbar.behaviour.minHeight"
+        name="imagetoolbar.behaviour.minHeight"
+        type="int"/>
+      <preference id="imagetoolbar.behaviour.ctrlOverrideSize"
+        name="imagetoolbar.behaviour.ctrlOverrideSize"
+        type="bool"/>
+      <preference id="imagetoolbar.behaviour.popupDelay"
+        name="imagetoolbar.behaviour.popupDelay"
+        type="int"/>
+      <preference id="imagetoolbar.behaviour.ctrlOverrideDelay"
+        name="imagetoolbar.behaviour.ctrlOverrideDelay"
+        type="bool"/>
+      <preference id="imagetoolbar.display.offsetX"
+        name="imagetoolbar.display.offsetX"
+        type="int"/>
+      <preference id="imagetoolbar.display.offsetY"
+        name="imagetoolbar.display.offsetY"
+        type="int"/>
+      <preference id="imagetoolbar.display.relativeToMouse"
+        name="imagetoolbar.display.relativeToMouse"
+        type="bool"/>
+  
+    </preferences>
+    
+    <!-- UI -->
+    
+    <tabbox>
+      <tabs>
+        <tab label="&imagetoolbar.settings.general;"/>
+        <tab label="&imagetoolbar.settings.customise;"/>
+        <tab label="&imagetoolbar.settings.advanced;"/>
+      </tabs>
+      
+      <tabpanels>
+  
+        <!-- General -->    
+      
+        <tabpanel>
+          <vbox flex="1">
+            <groupbox>
+              <caption label="&imagetoolbar.settings.general.saveimages;"/>
+              <vbox>
+                <radiogroup id="use_firefox_dir"
+                  preference="imagetoolbar.behaviour.useFirefoxDir"
+                  onsynctopreference="return settings.useFirefoxDirChange();">
+                  <vbox>
+                    <radio id="default_folder" 
+                      label="&imagetoolbar.settings.general.default;"
+                      accesskey="&imagetoolbar.settings.general.default.key;"
+                      value="true"/>
+                    <radio id="custom_folder"
+                      label="&imagetoolbar.settings.general.custom;"
+                      accesskey="&imagetoolbar.settings.general.custom.key;"
+                      value="false"/>	
+                  </vbox>
+                </radiogroup>
+                <hbox class="indent">
+                  <filefield id="custom_folder_box"
+                    flex="1"
+                    preference="imagetoolbar.imageFolder"
+                    preference-editable="true"
+                    onsyncfrompreference="return settings.readDownloadDirPref();"/>
+                  <button id="custom_folder_browse"
+                    oncommand="return settings.chooseFolder();"
+                    label="&imagetoolbar.settings.general.browse;"
+                    accesskey="&imagetoolbar.settings.general.browse.key;"/>
+              	</hbox>
+              </vbox>
+            </groupbox>
+            <label style="margin-top: 3px;">&imagetoolbar.settings.save.click;</label>
+            <radiogroup id="autosave"
+              preference="imagetoolbar.behaviour.autosave">
+              <vbox style="margin: 2px 0 0 10px;">
+                <radio id="save_prompt"
+                  label="&imagetoolbar.settings.save.prompt;"
+                  accesskey="&imagetoolbar.settings.save.prompt.key;"
+                  value="false"/>
+                <radio id="save_autosave" 
+                  label="&imagetoolbar.settings.save.autosave;"
+                  accesskey="&imagetoolbar.settings.save.autosave.key;"
+                  value="true"/>
+              </vbox>
+            </radiogroup>
+          </vbox>
+        </tabpanel>
+        
+        <!-- Customise -->
+        
+        <tabpanel>
+          <vbox flex="1">
+            <groupbox>
+              <caption label="&imagetoolbar.settings.customise.display;"/>
+              <hbox>
+                <vbox>
+                  <checkbox id="save_button"
+                    label="&imagetoolbar.save;"
+                    accesskey="&imagetoolbar.save.key;"
+                    preference="imagetoolbar.display.save"/>
+                  <checkbox id="copy_button"
+                    label="&imagetoolbar.copy;"
+                    accesskey="&imagetoolbar.copy.key;"
+                    preference="imagetoolbar.display.copy"/>
+                  <checkbox id="print_button"
+                    label="&imagetoolbar.print;"
+                    accesskey="&imagetoolbar.print.key;"
+                    preference="imagetoolbar.display.print"/>
+                  <checkbox id="info_button"
+                    label="&imagetoolbar.info;"
+                    accesskey="&imagetoolbar.info.key;"
+                    preference="imagetoolbar.display.info"/>
+                  <checkbox id="folder_button"
+                    label="&imagetoolbar.folder;"
+                    accesskey="&imagetoolbar.folder.key;"
+                    preference="imagetoolbar.display.folder"/>
+                </vbox>
+                <spacer flex="1"/>
+              </hbox>
+            </groupbox>
+            <separator style="max-height: 5px;"/>
+            <hbox>
+              <vbox>
+                <checkbox id="text_labels"
+            	    label="&imagetoolbar.settings.customise.textlabels;"
+            	    accesskey="&imagetoolbar.settings.customise.textlabels.key;"
+            	    preference="imagetoolbar.display.textlabels"/>
+                <checkbox id="small_icons"
+              	  label="&imagetoolbar.settings.customise.iconsize;"
+              	  accesskey="&imagetoolbar.settings.customise.iconsize.key;"
+              	  preference="imagetoolbar.display.smallIcons"/>
+              </vbox>
+              <spacer flex="1"/>        	
+            </hbox>
+          </vbox>
+        </tabpanel>
+        
+        <!-- Advanced -->      
+        
+        <tabpanel>
+          <vbox flex="1">
+            <hbox align="center">
+              <separator flex="1"
+                class="groove-thin"
+                style="max-height:2px; max-width: 5px;"/>
+              <label>&imagetoolbar.settings.advanced.size;</label>
+              <separator flex="1"
+                class="groove-thin"
+                style="max-height:2px; margin-right: 5px;"/>
+            </hbox>
+            <vbox>
+              <hbox>
+                <hbox flex="1"
+                  align="center">
+                  <textbox id="min_width"
+                    size="2"
+                    preference="imagetoolbar.behaviour.minWidth"/>
+                  <label>&imagetoolbar.settings.advanced.width;</label>
+                </hbox>
+                <hbox flex="1"
+                  align="center">
+                  <textbox id="min_height"
+                    size="2"
+                    preference="imagetoolbar.behaviour.minHeight"/>
+                  <label>&imagetoolbar.settings.advanced.height;</label>
+                </hbox>
+              </hbox>
+              <hbox>
+                <checkbox id="ctrl_size"
+                  label="&imagetoolbar.settings.advanced.ctrl;"
+                  preference="imagetoolbar.behaviour.ctrlOverrideSize"/>
+              </hbox>
+            </vbox>
+            
+            <separator class="thin"/>
+
+            <hbox align="center">
+              <separator flex="1"
+                class="groove-thin"
+                style="max-height:2px; max-width: 5px;"/>
+              <label>&imagetoolbar.settings.advanced.position;</label>  
+              <separator flex="1"
+                class="groove-thin"
+                style="max-height:2px; margin-right: 5px;"/>
+            </hbox>
+            <vbox>
+              <hbox>
+                <hbox flex="1"
+                  align="center">
+                  <textbox id="offset_x"
+                    size="2"
+                    preference="imagetoolbar.display.offsetX"/>
+                  <label>&imagetoolbar.settings.advanced.left;</label>
+                </hbox>
+                <hbox flex="1"
+                  align="center">
+                  <textbox id="offset_y"
+                    size="2"
+                    preference="imagetoolbar.display.offsetY"/>
+                  <label>&imagetoolbar.settings.advanced.top;</label>
+                </hbox>
+              </hbox>
+              <hbox>
+                <checkbox id="relative_to_cursor"
+                  label="&imagetoolbar.settings.advanced.relative;"
+                  preference="imagetoolbar.display.relativeToMouse"/>
+              </hbox>
+            </vbox>
+
+            <separator/>
+
+            <hbox align="center">
+              <separator flex="1"
+                class="groove-thin"
+                style="max-height:2px; max-width: 5px;"/>
+              <label>&imagetoolbar.settings.advanced.delay;</label>
+              <separator flex="1"
+                class="groove-thin"
+                style="max-height:2px; margin-right: 5px;"/>
+            </hbox>
+            <vbox>
+              <hbox align="center">
+                <textbox id="popup_delay"
+                  size="2"
+                  preference="imagetoolbar.behaviour.popupDelay"/>
+                <label>&imagetoolbar.settings.advanced.time;</label>
+              </hbox>
+              <hbox>
+                <checkbox id="ctrl_delay"
+                  label="&imagetoolbar.settings.advanced.ctrl;"
+                  preference="imagetoolbar.behaviour.ctrlOverrideDelay"/>
+              </hbox>
+            </vbox>
+          </vbox>
+        </tabpanel>
+        
+      </tabpanels>
+    </tabbox>
+
+  </prefpane>
+  
+</prefwindow>

@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "Zapisz">
+<!ENTITY imagetoolbar.copy "Kopiuj">
+<!ENTITY imagetoolbar.print "Drukuj">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Folder">
+
+<!ENTITY imagetoolbar.save.key "Z">
+<!ENTITY imagetoolbar.copy.key "K">
+<!ENTITY imagetoolbar.print.key "D">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

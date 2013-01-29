@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Paramètres d'Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Général">
+<!ENTITY imagetoolbar.settings.customise "Personnalisation">
+<!ENTITY imagetoolbar.settings.advanced "Avancé">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "Le dossier d'enregistrement des images par défaut est :">
+<!ENTITY imagetoolbar.settings.general.default "le dossier de téléchargement de Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "un autre dossier :">
+<!ENTITY imagetoolbar.settings.general.browse "Parcourir...">
+
+<!ENTITY imagetoolbar.settings.general.default.key "F">
+<!ENTITY imagetoolbar.settings.general.custom.key "a">
+<!ENTITY imagetoolbar.settings.general.browse.key "P">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "Cliquer sur le bouton d'enregistrement permet :">
+<!ENTITY imagetoolbar.settings.save.prompt "de choisir le dossier d'enregistrement">
+<!ENTITY imagetoolbar.settings.save.autosave "l'enregistrement dans le dossier image par défaut">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "b">
+<!ENTITY imagetoolbar.settings.save.autosave.key "d">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "Affichage des boutons de la mini-barre">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Utiliser de petites icônes">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Afficher le texte sous les icônes">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "i">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "f">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "Taille des images prises en compte">
+<!ENTITY imagetoolbar.settings.advanced.width "px de large au minimum">
+<!ENTITY imagetoolbar.settings.advanced.height "px de haut au minimum">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL permet de ne pas tenir compte de ces préférences">
+<!ENTITY imagetoolbar.settings.advanced.position "Position de la mini-barre">
+<!ENTITY imagetoolbar.settings.advanced.top "px par rapport à la bordure supérieure">
+<!ENTITY imagetoolbar.settings.advanced.left "px par rapport à la bordure de gauche">
+<!ENTITY imagetoolbar.settings.advanced.relative "À l'empacement du pointeur de la souris">
+<!ENTITY imagetoolbar.settings.advanced.delay "Délai d'affichage de la mini-barre">
+<!ENTITY imagetoolbar.settings.advanced.time "ms de temporisation">

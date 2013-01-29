@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "Enregistrer">
+<!ENTITY imagetoolbar.copy "Copier">
+<!ENTITY imagetoolbar.print "Imprimer">
+<!ENTITY imagetoolbar.info "Informations">
+<!ENTITY imagetoolbar.folder "Dossier image">
+
+<!ENTITY imagetoolbar.save.key "E">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "p">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "D">

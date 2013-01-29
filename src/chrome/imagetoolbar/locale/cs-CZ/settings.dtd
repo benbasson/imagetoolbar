@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Nastavení rozšíření Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Obecné">
+<!ENTITY imagetoolbar.settings.customise "Vlastní">
+<!ENTITY imagetoolbar.settings.advanced "Rozšířené">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "Složka k ukládání obrázků bude:">
+<!ENTITY imagetoolbar.settings.general.default "Výchozí složka Firefoxu použitá při stahování">
+<!ENTITY imagetoolbar.settings.general.custom "Vlastní složka:">
+<!ENTITY imagetoolbar.settings.general.browse "Procházet...">
+
+<!ENTITY imagetoolbar.settings.general.default.key "V">
+<!ENTITY imagetoolbar.settings.general.custom.key "s">
+<!ENTITY imagetoolbar.settings.general.browse.key "P">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "Klepnutím na tlačítko Uložit se:">
+<!ENTITY imagetoolbar.settings.save.prompt "zobrazí výzva k zadání umístění a názvu souboru">
+<!ENTITY imagetoolbar.settings.save.autosave "obrázek automaticky uloží do výchozí složky">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "v">
+<!ENTITY imagetoolbar.settings.save.autosave.key "a">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "Zobrazit následující tlačítka:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Použít malé ikony">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Zobrazit textové popisky">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "m">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "Rozměry obrázku">
+<!ENTITY imagetoolbar.settings.advanced.width "Minimální šířka (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minimální výška (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL toto potlačí">
+<!ENTITY imagetoolbar.settings.advanced.position "Pozice">
+<!ENTITY imagetoolbar.settings.advanced.top "Odsazení shora (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Odsazení zleva (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativně k ukazateli myši">
+<!ENTITY imagetoolbar.settings.advanced.delay "Prodleva před otevřením">
+<!ENTITY imagetoolbar.settings.advanced.time "Čas (ms)">

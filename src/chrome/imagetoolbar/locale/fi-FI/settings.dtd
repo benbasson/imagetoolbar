@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Image Toolbarin asetukset">
+<!ENTITY imagetoolbar.settings.general "Yleiset">
+<!ENTITY imagetoolbar.settings.customise "Muokkaa">
+<!ENTITY imagetoolbar.settings.advanced "Lisäasetukset">
+<!ENTITY imagetoolbar.settings.general.saveimages "Mihin kansioon kuvat ladataan:">
+<!ENTITY imagetoolbar.settings.general.default "Firefoxin latauskansioon">
+<!ENTITY imagetoolbar.settings.general.custom "muuhun kansioon:">
+<!ENTITY imagetoolbar.settings.general.browse "Selaa...">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "Kun napsautat Tallenna -painiketta:">
+<!ENTITY imagetoolbar.settings.save.prompt "kysy kansion ja tiedoston nimeä">
+<!ENTITY imagetoolbar.settings.save.autosave "tallenna automaattisesti oletuskansioon">
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+<!ENTITY imagetoolbar.settings.customise.display "Näytä seuraavat painikkeet:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Käytä pieniä kuvakkeita">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Näytä tekstiselitteet">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "Kuvan koko">
+<!ENTITY imagetoolbar.settings.advanced.width "Vähimmäisleveys (pikseliä)">
+<!ENTITY imagetoolbar.settings.advanced.height "Vähimmäiskorkeus (pikseliä)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL -näppäin ohittaa asetuksen">
+<!ENTITY imagetoolbar.settings.advanced.position "Sijainti">
+<!ENTITY imagetoolbar.settings.advanced.top "Yläreunasta (pikseliä)">
+<!ENTITY imagetoolbar.settings.advanced.left "Vasemmasta reunasta (pikseliä)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Mitattuna kursorista">
+<!ENTITY imagetoolbar.settings.advanced.delay "Kuvatyökalupalkin viive">
+<!ENTITY imagetoolbar.settings.advanced.time "Aika (millisekuntia)">

@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Nastavenia pre Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Všeobecné">
+<!ENTITY imagetoolbar.settings.customise "Vlastné">
+<!ENTITY imagetoolbar.settings.advanced "Rozšírené">
+<!ENTITY imagetoolbar.settings.general.saveimages "Priečinok pre sťahovanie obrázkov">
+<!ENTITY imagetoolbar.settings.general.default "Prednastavený priečinok Firefoxu pre sťahovanie">
+<!ENTITY imagetoolbar.settings.general.custom "Vlastný priečinok:">
+<!ENTITY imagetoolbar.settings.general.browse "Prechádzať...">
+<!ENTITY imagetoolbar.settings.general.default.key "P">
+<!ENTITY imagetoolbar.settings.general.custom.key "V">
+<!ENTITY imagetoolbar.settings.general.browse.key "r">
+<!ENTITY imagetoolbar.settings.save.click "Kiknutím na tlačidlo &quot;Uložiť&quot; sa:">
+<!ENTITY imagetoolbar.settings.save.prompt "zobrazí výzva k zadaniu umiestnenia a názvu súboru">
+<!ENTITY imagetoolbar.settings.save.autosave "obrázok automaticky uloží do prednastaveného priečinku">
+<!ENTITY imagetoolbar.settings.save.prompt.key "z">
+<!ENTITY imagetoolbar.settings.save.autosave.key "o">
+<!ENTITY imagetoolbar.settings.customise.display "Zobraziť nasledujúce tlačidlá:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Použiť malé ikony">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Zobraziť textové popisky">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "o">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "Z">
+<!ENTITY imagetoolbar.settings.advanced.size "Rozmery obrázkov">
+<!ENTITY imagetoolbar.settings.advanced.width "Minimálna šírka (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minimálna výška (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Stlačením CTRL bude nastavenie potlačené">
+<!ENTITY imagetoolbar.settings.advanced.position "Umiestnenie panelu">
+<!ENTITY imagetoolbar.settings.advanced.top "Odsadenie zhora (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Odsadenie zľava (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Zobrazovať na aktuálnej pozícii myši">
+<!ENTITY imagetoolbar.settings.advanced.delay "Oneskorenie zobrazenia">
+<!ENTITY imagetoolbar.settings.advanced.time "Čas (ms)">

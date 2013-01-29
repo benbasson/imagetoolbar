@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Configurações do Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Geral">
+<!ENTITY imagetoolbar.settings.customise "Customizar">
+<!ENTITY imagetoolbar.settings.advanced "Avançado">
+<!ENTITY imagetoolbar.settings.general.saveimages "A pasta de imagens deve ser:">
+<!ENTITY imagetoolbar.settings.general.default "Pasta de download do Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "Uma pasta personalizada:">
+<!ENTITY imagetoolbar.settings.general.browse "Buscar...">
+<!ENTITY imagetoolbar.settings.general.default.key "a">
+<!ENTITY imagetoolbar.settings.general.custom.key "P">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "Clicar no botão salvar deverá:">
+<!ENTITY imagetoolbar.settings.save.prompt "Solicitar uma localização e um nome de arquivo">
+<!ENTITY imagetoolbar.settings.save.autosave "Salvar automaticamente para a pasta padrão">
+<!ENTITY imagetoolbar.settings.save.prompt.key "S">
+<!ENTITY imagetoolbar.settings.save.autosave.key "p">
+<!ENTITY imagetoolbar.settings.customise.display "Exibir os seguintes botões:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Utilizar ícones pequenos">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Exibir rótulos">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "i">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "r">
+<!ENTITY imagetoolbar.settings.advanced.size "Tamanho da imagem">
+<!ENTITY imagetoolbar.settings.advanced.width "Largura mínima (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Altura mínima (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Ignorar esta opção ao pressionar CTRL">
+<!ENTITY imagetoolbar.settings.advanced.position "Posição">
+<!ENTITY imagetoolbar.settings.advanced.top "Margem superior (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Margem esquerda (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativa ao cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Demora de abertura">
+<!ENTITY imagetoolbar.settings.advanced.time "Tempo (ms)">

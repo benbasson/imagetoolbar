@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "保存">
+<!ENTITY imagetoolbar.copy "コピー">
+<!ENTITY imagetoolbar.print "印刷">
+<!ENTITY imagetoolbar.info "情報">
+<!ENTITY imagetoolbar.folder "フォルダ">
+
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

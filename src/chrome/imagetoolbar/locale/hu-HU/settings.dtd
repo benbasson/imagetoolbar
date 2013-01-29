@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Kép Eszköztár Beállítások">
+<!ENTITY imagetoolbar.settings.general "Általános">
+<!ENTITY imagetoolbar.settings.customise "Testreszabás">
+<!ENTITY imagetoolbar.settings.advanced "Haladó">
+<!ENTITY imagetoolbar.settings.general.saveimages "Képtároló mappa:">
+<!ENTITY imagetoolbar.settings.general.default "Böngésző letöltési mappa">
+<!ENTITY imagetoolbar.settings.general.custom "egyedi mappa:">
+<!ENTITY imagetoolbar.settings.general.browse "Tallózás...">
+<!ENTITY imagetoolbar.settings.general.default.key "A">
+<!ENTITY imagetoolbar.settings.general.custom.key "T">
+<!ENTITY imagetoolbar.settings.general.browse.key "T">
+<!ENTITY imagetoolbar.settings.save.click "Mentés gombra kattintva:">
+<!ENTITY imagetoolbar.settings.save.prompt "mentés az elérési út és a fájlnév megadásával">
+<!ENTITY imagetoolbar.settings.save.autosave "automatikus mentés az alapértelmezett mappába">
+<!ENTITY imagetoolbar.settings.save.prompt.key "m">
+<!ENTITY imagetoolbar.settings.save.autosave.key "a">
+<!ENTITY imagetoolbar.settings.customise.display "Megjelenítendő gombok">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Kis ikonok használata">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Szöveges címkék a gombokon">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "K">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "S">
+<!ENTITY imagetoolbar.settings.advanced.size "Képméret">
+<!ENTITY imagetoolbar.settings.advanced.width "Maximális szélesség (pixel)">
+<!ENTITY imagetoolbar.settings.advanced.height "Maximális magasság (pixel)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CRTL gombot lenyomva nem veszi figyelembe">
+<!ENTITY imagetoolbar.settings.advanced.position "Poczíció">
+<!ENTITY imagetoolbar.settings.advanced.top "Hely felette (pixel)">
+<!ENTITY imagetoolbar.settings.advanced.left "Hely balra (pixel)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Egérmutatóhoz mérten">
+<!ENTITY imagetoolbar.settings.advanced.delay "Megnyitási késleltetés">
+<!ENTITY imagetoolbar.settings.advanced.time "Idő (ezredmásodperc)">

@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "Salva">
+<!ENTITY imagetoolbar.copy "Copia">
+<!ENTITY imagetoolbar.print "Stampa">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Cartella">
+
+<!ENTITY imagetoolbar.save.key "v">
+<!ENTITY imagetoolbar.copy.key "o">
+<!ENTITY imagetoolbar.print.key "m">
+<!ENTITY imagetoolbar.info.key "n">
+<!ENTITY imagetoolbar.folder.key "e">

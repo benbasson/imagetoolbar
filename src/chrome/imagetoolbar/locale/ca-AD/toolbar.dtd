@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Salva">
+<!ENTITY imagetoolbar.copy "Copia">
+<!ENTITY imagetoolbar.print "Imprimeix">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Directori">
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

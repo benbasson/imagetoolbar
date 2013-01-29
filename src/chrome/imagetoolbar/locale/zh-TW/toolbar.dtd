@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "儲存">
+<!ENTITY imagetoolbar.copy "複製">
+<!ENTITY imagetoolbar.print "列印">
+<!ENTITY imagetoolbar.info "資訊">
+<!ENTITY imagetoolbar.folder "目錄">
+
+<!ENTITY imagetoolbar.save.key "S">
+<!ENTITY imagetoolbar.copy.key "C">
+<!ENTITY imagetoolbar.print.key "P">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "F">

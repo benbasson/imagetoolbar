@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Image Toolbar Settings">
+<!ENTITY imagetoolbar.settings.general "General">
+<!ENTITY imagetoolbar.settings.customise "Customise">
+<!ENTITY imagetoolbar.settings.advanced "Advanced">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "Image Folder should be:">
+<!ENTITY imagetoolbar.settings.general.default "Firefox's download folder">
+<!ENTITY imagetoolbar.settings.general.custom "a custom folder:">
+<!ENTITY imagetoolbar.settings.general.browse "Browse...">
+
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "Clicking the save button should:">
+<!ENTITY imagetoolbar.settings.save.prompt "prompt for a location and filename">
+<!ENTITY imagetoolbar.settings.save.autosave "automatically save to the default folder">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "Show the following buttons:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Use small icons">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Show text labels">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "Image size">
+<!ENTITY imagetoolbar.settings.advanced.width "Minimum width (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minimum height (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL overrides this">
+<!ENTITY imagetoolbar.settings.advanced.position "Position">
+<!ENTITY imagetoolbar.settings.advanced.top "Top offset (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Left offset (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relative to cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Open delay">
+<!ENTITY imagetoolbar.settings.advanced.time "Time (ms)">

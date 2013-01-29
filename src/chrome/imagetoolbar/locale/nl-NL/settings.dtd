@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Image Toolbar Instellingen">
+<!ENTITY imagetoolbar.settings.general "Algemeen">
+<!ENTITY imagetoolbar.settings.customise "Aanpassen">
+<!ENTITY imagetoolbar.settings.advanced "Geavanceerd">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "Plaatjesmap moet zijn:">
+<!ENTITY imagetoolbar.settings.general.default "Firefox's download map">
+<!ENTITY imagetoolbar.settings.general.custom "een aparte map:">
+<!ENTITY imagetoolbar.settings.general.browse "Blader...">
+
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "Klikken op de Opslaanknop moet:">
+<!ENTITY imagetoolbar.settings.save.prompt "vragen om locatie en bestandsnaam">
+<!ENTITY imagetoolbar.settings.save.autosave "automatisch opslaan in de standaardmap">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "Laat de volgende knoppen zien:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Gebruik kleine iconen">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Laat text labels zien">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "Groote plaatje">
+<!ENTITY imagetoolbar.settings.advanced.width "Minimale breedte (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minimale hoogte (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL overruled dit">
+<!ENTITY imagetoolbar.settings.advanced.position "Positie">
+<!ENTITY imagetoolbar.settings.advanced.top "Boven inspringen (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Links inspringen (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relatief aan cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Open vertraging">
+<!ENTITY imagetoolbar.settings.advanced.time "Tijd (ms)">

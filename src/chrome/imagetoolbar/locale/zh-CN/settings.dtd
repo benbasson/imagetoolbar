@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Image Toolbar 设置">
+<!ENTITY imagetoolbar.settings.general "一般设置(D)">
+<!ENTITY imagetoolbar.settings.customise "自定义设置(U)">
+<!ENTITY imagetoolbar.settings.advanced "高级设置">
+<!ENTITY imagetoolbar.settings.general.saveimages "图片保存至：">
+<!ENTITY imagetoolbar.settings.general.default "Firefox 默认的下载文件夹">
+<!ENTITY imagetoolbar.settings.general.custom "自定义文件夹：">
+<!ENTITY imagetoolbar.settings.general.browse "浏览(B)">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "单击“保存”按钮要执行的操作：">
+<!ENTITY imagetoolbar.settings.save.prompt "提示输入保存位置及文件名(P)">
+<!ENTITY imagetoolbar.settings.save.autosave "自动保存至预设文件夹(M)">
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+<!ENTITY imagetoolbar.settings.customise.display "工具栏内显示的按钮：">
+<!ENTITY imagetoolbar.settings.customise.iconsize "使用小图标(I)">
+<!ENTITY imagetoolbar.settings.customise.textlabels "显示文字标识(T)">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "图片大小">
+<!ENTITY imagetoolbar.settings.advanced.width "最小宽度（像素）">
+<!ENTITY imagetoolbar.settings.advanced.height "最小高度（像素）">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "按下“CTRL”键忽略此设置">
+<!ENTITY imagetoolbar.settings.advanced.position "工具栏位置">
+<!ENTITY imagetoolbar.settings.advanced.top "从顶端向下偏移（像素）">
+<!ENTITY imagetoolbar.settings.advanced.left "从左端向右偏移（像素）">
+<!ENTITY imagetoolbar.settings.advanced.relative "跟踪鼠标">
+<!ENTITY imagetoolbar.settings.advanced.delay "打开延时">
+<!ENTITY imagetoolbar.settings.advanced.time "毫秒（1/1000秒）">

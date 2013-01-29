@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Mentés">
+<!ENTITY imagetoolbar.copy "Másolás">
+<!ENTITY imagetoolbar.print "Nyomtatás">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Mappa">
+<!ENTITY imagetoolbar.save.key "s">
+<!ENTITY imagetoolbar.copy.key "M">
+<!ENTITY imagetoolbar.print.key "N">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "p">

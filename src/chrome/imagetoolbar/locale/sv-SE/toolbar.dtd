@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Spara">
+<!ENTITY imagetoolbar.copy "Kopiera">
+<!ENTITY imagetoolbar.print "Skriv ut">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Mapp">
+<!ENTITY imagetoolbar.save.key "s">
+<!ENTITY imagetoolbar.copy.key "k">
+<!ENTITY imagetoolbar.print.key "u">
+<!ENTITY imagetoolbar.info.key "i">
+<!ENTITY imagetoolbar.folder.key "m">

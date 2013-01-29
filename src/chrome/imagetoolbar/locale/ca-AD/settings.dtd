@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Configuració de la Barra d&apos;eines d&apos;Imatge">
+<!ENTITY imagetoolbar.settings.general "General">
+<!ENTITY imagetoolbar.settings.customise "Personalitza">
+<!ENTITY imagetoolbar.settings.advanced "Avançat">
+<!ENTITY imagetoolbar.settings.general.saveimages "El directori de la imatge ha de ser:">
+<!ENTITY imagetoolbar.settings.general.default "Directori de Descàrregues de Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "un directori propi:">
+<!ENTITY imagetoolbar.settings.general.browse "Navega...">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "Clicant al botó de salvar s&apos;hauria de:">
+<!ENTITY imagetoolbar.settings.save.prompt "marcar ruta i nom d&apos;arxiu">
+<!ENTITY imagetoolbar.settings.save.autosave "automàticament salvar al directori per defecte">
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+<!ENTITY imagetoolbar.settings.customise.display "Mostra els següents botons:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Usa icones petites">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Mostra volums de text">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "Tamany d&apos;imatge">
+<!ENTITY imagetoolbar.settings.advanced.width "Amplada mínima (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Alçada mínima (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL sobrepassa això">
+<!ENTITY imagetoolbar.settings.advanced.position "Posició">
+<!ENTITY imagetoolbar.settings.advanced.top "Marge superio (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Marge Esquerre (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relatiu al cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Obre amb retard">
+<!ENTITY imagetoolbar.settings.advanced.time "Temps (ms)">

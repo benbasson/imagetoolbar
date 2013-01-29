@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "Opslaan">
+<!ENTITY imagetoolbar.copy "Kopi&#235;er">
+<!ENTITY imagetoolbar.print "Afdrukken">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Map">
+
+<!ENTITY imagetoolbar.save.key "O">
+<!ENTITY imagetoolbar.copy.key "K">
+<!ENTITY imagetoolbar.print.key "A">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "M">

@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Image Toolbar-inställningar">
+<!ENTITY imagetoolbar.settings.general "Allmänt">
+<!ENTITY imagetoolbar.settings.customise "Anpassa">
+<!ENTITY imagetoolbar.settings.advanced "Avancerat">
+<!ENTITY imagetoolbar.settings.general.saveimages "Välj mapp för bilderna">
+<!ENTITY imagetoolbar.settings.general.default "Firefox:s filhämtningsmapp">
+<!ENTITY imagetoolbar.settings.general.custom "Annan">
+<!ENTITY imagetoolbar.settings.general.browse "Bläddra...">
+<!ENTITY imagetoolbar.settings.general.default.key "f">
+<!ENTITY imagetoolbar.settings.general.custom.key "a">
+<!ENTITY imagetoolbar.settings.general.browse.key "b">
+<!ENTITY imagetoolbar.settings.save.click "Åtgärd vid &apos;Spara&apos;:">
+<!ENTITY imagetoolbar.settings.save.prompt "Välj plats och filnamn">
+<!ENTITY imagetoolbar.settings.save.autosave "Spara automatiskt i den förvalda mappen">
+<!ENTITY imagetoolbar.settings.save.prompt.key "v">
+<!ENTITY imagetoolbar.settings.save.autosave.key "s">
+<!ENTITY imagetoolbar.settings.customise.display "Visa följande knappar:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Små ikoner">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Ikontext">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "i">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "t">
+<!ENTITY imagetoolbar.settings.advanced.size "Bildstorlek">
+<!ENTITY imagetoolbar.settings.advanced.width "Minsta bredd (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Minsta höjd (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "CTRL förbigår detta">
+<!ENTITY imagetoolbar.settings.advanced.position "Position">
+<!ENTITY imagetoolbar.settings.advanced.top "Övre marginal (px från bildkanten)">
+<!ENTITY imagetoolbar.settings.advanced.left "Vänstermarginal (px från bildkanten)">
+<!ENTITY imagetoolbar.settings.advanced.relative "vid muspekaren">
+<!ENTITY imagetoolbar.settings.advanced.delay "Fördröjning">
+<!ENTITY imagetoolbar.settings.advanced.time "Tid (ms)">

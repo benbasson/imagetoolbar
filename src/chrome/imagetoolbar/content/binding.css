@@ -1,0 +1,47 @@
+@import url(chrome://imagetoolbar/skin/toolbardiv.css);
+@namespace "http://www.w3.org/1999/xhtml";
+@namespace itb url("http://imgtoolbar.addons.mozilla.org/2005/v1");
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+div#mozilla-image-toolbar-div
+{
+  display: block;
+  position: absolute;
+  z-index: 2147483647;
+  float: left;
+  top: 0;
+  left: 0;
+}
+
+div#mozilla-image-toolbar-div xul|label
+{
+	text-align: center !important;
+	font-weight: normal !important;
+	padding: 0  !important;
+	float: none !important;
+}
+
+itb|imagetoolbar
+{
+  -moz-binding: url("chrome://imagetoolbar/content/imagetoolbar.xml#imagetoolbar") !important;
+}
+
+img,
+object[type^="image/"]
+{
+  -moz-binding: url("chrome://imagetoolbar/content/imagetoolbar.xml#img") !important;
+}
+
+img[usemap],
+img[galleryimg="no"],
+img[galleryimg="false"]
+{
+  -moz-binding: none;
+}
+
+@media print
+{
+  div#mozilla-image-toolbar-div {
+    display: none !important;
+  }
+}

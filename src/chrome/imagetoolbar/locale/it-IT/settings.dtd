@@ -1,0 +1,48 @@
+<!-- Image Toolbar Settings Locale v0.6 -->
+
+<!ENTITY imagetoolbar.settings.title "Impostazioni di Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "Generali">
+<!ENTITY imagetoolbar.settings.customise "Personalizza">
+<!ENTITY imagetoolbar.settings.advanced "Avanzate">
+
+<!-- General Settings -->
+
+<!ENTITY imagetoolbar.settings.general.saveimages "La cartella per le immagini dovrebbe essere:">
+<!ENTITY imagetoolbar.settings.general.default "la cartella di download di Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "una cartella personalizzata:">
+<!ENTITY imagetoolbar.settings.general.browse "Sfoglia...">
+
+<!ENTITY imagetoolbar.settings.general.default.key "d">
+<!ENTITY imagetoolbar.settings.general.custom.key "c">
+<!ENTITY imagetoolbar.settings.general.browse.key "S">
+
+<!-- Save Settings -->
+
+<!ENTITY imagetoolbar.settings.save.click "Facendo clic su 'Salva' si dovrebbe:">
+<!ENTITY imagetoolbar.settings.save.prompt "poter scegliere una cartella ed il nome del file">
+<!ENTITY imagetoolbar.settings.save.autosave "salvare automaticamente nella cartella predefinita">
+
+<!ENTITY imagetoolbar.settings.save.prompt.key "s">
+<!ENTITY imagetoolbar.settings.save.autosave.key "a">
+
+<!-- Customise Settings -->
+
+<!ENTITY imagetoolbar.settings.customise.display "Visualizza i seguenti pulsanti:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Usa icone piccole">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Mostra testo">
+
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "i">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "t">
+
+<!-- Advanced Settings -->
+
+<!ENTITY imagetoolbar.settings.advanced.size "Dimensioni immagine">
+<!ENTITY imagetoolbar.settings.advanced.width "px di larghezza minima">
+<!ENTITY imagetoolbar.settings.advanced.height "px di altezza minima">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Premere CTRL per escludere">
+<!ENTITY imagetoolbar.settings.advanced.position "Posizione">
+<!ENTITY imagetoolbar.settings.advanced.top "px di margine massimo">
+<!ENTITY imagetoolbar.settings.advanced.left "px di margine a sinistra">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativo al cursore">
+<!ENTITY imagetoolbar.settings.advanced.delay "Tempo di attesa">
+<!ENTITY imagetoolbar.settings.advanced.time "millisecondi">

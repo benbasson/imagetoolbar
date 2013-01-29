@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Ρυθμίσεις Μπάρας Εργαλείων Εικόνας">
+<!ENTITY imagetoolbar.settings.general "Γενικά">
+<!ENTITY imagetoolbar.settings.customise "Παραμετροποίηση">
+<!ENTITY imagetoolbar.settings.advanced "Για προχωρημένους">
+<!ENTITY imagetoolbar.settings.general.saveimages "Ορισμός Φακέλου Εικόνων">
+<!ENTITY imagetoolbar.settings.general.default "Φάκελος ληφθέντων αρχείων του Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "ένας άλλος φάκελος:">
+<!ENTITY imagetoolbar.settings.general.browse "Αναζήτηση...">
+<!ENTITY imagetoolbar.settings.general.default.key "F">
+<!ENTITY imagetoolbar.settings.general.custom.key "κ">
+<!ENTITY imagetoolbar.settings.general.browse.key "ζ">
+<!ENTITY imagetoolbar.settings.save.click "Με το πάτημα του κουμπιού αποθήκευσης">
+<!ENTITY imagetoolbar.settings.save.prompt "Προτροπή για διαδρομή και όνομα αρχείου">
+<!ENTITY imagetoolbar.settings.save.autosave "Αυτόματη αποθήκευση στον προεπιλεγμένο φάκελο">
+<!ENTITY imagetoolbar.settings.save.prompt.key "δ">
+<!ENTITY imagetoolbar.settings.save.autosave.key "π">
+<!ENTITY imagetoolbar.settings.customise.display "Εμφάνιση των παρακάτω κουμπιών:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Μικρά εικονίδια">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Επεξηγήσεις εικονιδίων">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "Μ">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "ε">
+<!ENTITY imagetoolbar.settings.advanced.size "Μέγεθος εικόνας">
+<!ENTITY imagetoolbar.settings.advanced.width "Ελάχιστο πλάτος (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Ελάχιστο ύψος (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Το CTRL υπερκαλύπτει αυτό">
+<!ENTITY imagetoolbar.settings.advanced.position "Θέση">
+<!ENTITY imagetoolbar.settings.advanced.top "Περιθώριο από πάνω (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Περιθώριο από αριστερά (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Σχετικό με τον κέρσορα">
+<!ENTITY imagetoolbar.settings.advanced.delay "Καθυστέρηση στο άνοιγμα">
+<!ENTITY imagetoolbar.settings.advanced.time "Χρόνος (ms)">

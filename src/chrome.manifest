@@ -1,0 +1,36 @@
+overlay	chrome://browser/content/browser.xul	chrome://imagetoolbar/content/overlay.xul
+
+content	imagetoolbar	chrome/imagetoolbar/content/
+
+locale  imagetoolbar  ar	  	chrome/imagetoolbar/locale/ar/
+locale  imagetoolbar  be-BY	  chrome/imagetoolbar/locale/be-BY/
+locale  imagetoolbar  ca-AD	  chrome/imagetoolbar/locale/ca-AD/
+locale  imagetoolbar  cs-CZ	  chrome/imagetoolbar/locale/cs-CZ/
+locale  imagetoolbar  da-DK	  chrome/imagetoolbar/locale/da-DK/
+locale  imagetoolbar  de-DE	  chrome/imagetoolbar/locale/de-DE/
+locale  imagetoolbar  el-GR	  chrome/imagetoolbar/locale/el-GR/
+locale  imagetoolbar  en-US	  chrome/imagetoolbar/locale/en-US/
+locale  imagetoolbar  es-AR	  chrome/imagetoolbar/locale/es-AR/
+locale  imagetoolbar  es-CL	  chrome/imagetoolbar/locale/es-CL/
+locale  imagetoolbar  es-ES	  chrome/imagetoolbar/locale/es-ES/
+locale  imagetoolbar  fi-FI	  chrome/imagetoolbar/locale/fi-FI/
+locale  imagetoolbar  fr-FR	  chrome/imagetoolbar/locale/fr-FR/
+locale  imagetoolbar  he-IL	  chrome/imagetoolbar/locale/he-IL/
+locale  imagetoolbar  hu-HU	  chrome/imagetoolbar/locale/hu-HU/
+locale  imagetoolbar  it-IT	  chrome/imagetoolbar/locale/it-IT/
+locale  imagetoolbar  ja-JP	  chrome/imagetoolbar/locale/ja-JP/
+locale  imagetoolbar  ko-KR	  chrome/imagetoolbar/locale/ko-KR/
+locale  imagetoolbar  nl-NL	  chrome/imagetoolbar/locale/nl-NL/
+locale  imagetoolbar  pl-PL	  chrome/imagetoolbar/locale/pl-PL/
+locale  imagetoolbar  pt-BR	  chrome/imagetoolbar/locale/pt-BR/
+locale  imagetoolbar  pt-PT	  chrome/imagetoolbar/locale/pt-PT/
+locale  imagetoolbar  ro-RO	  chrome/imagetoolbar/locale/ro-RO/
+locale  imagetoolbar  ru-RU	  chrome/imagetoolbar/locale/ru-RU/
+locale  imagetoolbar  sk-SK	  chrome/imagetoolbar/locale/sk-SK/
+locale  imagetoolbar  sv-SE	  chrome/imagetoolbar/locale/sv-SE/
+locale  imagetoolbar  tr-TR	  chrome/imagetoolbar/locale/tr-TR/
+locale  imagetoolbar  uk-UA	  chrome/imagetoolbar/locale/uk-UA/
+locale  imagetoolbar  zh-CN	  chrome/imagetoolbar/locale/zh-CN/
+locale  imagetoolbar  zh-TW	  chrome/imagetoolbar/locale/zh-TW/
+
+skin    imagetoolbar  classic chrome/imagetoolbar/skin/classic/

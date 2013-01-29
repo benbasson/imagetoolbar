@@ -1,0 +1,31 @@
+<!ENTITY imagetoolbar.settings.title "Opciones de Image Toolbar">
+<!ENTITY imagetoolbar.settings.general "General">
+<!ENTITY imagetoolbar.settings.customise "Personalizar">
+<!ENTITY imagetoolbar.settings.advanced "Avanzado">
+<!ENTITY imagetoolbar.settings.general.saveimages "La carpeta de imágenes será:">
+<!ENTITY imagetoolbar.settings.general.default "Carpeta de descargas de Firefox">
+<!ENTITY imagetoolbar.settings.general.custom "Una carpeta personalizada:">
+<!ENTITY imagetoolbar.settings.general.browse "Buscar...">
+<!ENTITY imagetoolbar.settings.general.default.key "D">
+<!ENTITY imagetoolbar.settings.general.custom.key "U">
+<!ENTITY imagetoolbar.settings.general.browse.key "B">
+<!ENTITY imagetoolbar.settings.save.click "Al clickear el botón Guardar:">
+<!ENTITY imagetoolbar.settings.save.prompt "Preguntar la ubicación y el nombre del archivo">
+<!ENTITY imagetoolbar.settings.save.autosave "Guardar automáticamente en la carpeta predefinida">
+<!ENTITY imagetoolbar.settings.save.prompt.key "P">
+<!ENTITY imagetoolbar.settings.save.autosave.key "M">
+<!ENTITY imagetoolbar.settings.customise.display "Mostrar los siguientes botones:">
+<!ENTITY imagetoolbar.settings.customise.iconsize "Usar iconos pequeños">
+<!ENTITY imagetoolbar.settings.customise.textlabels "Mostrar etiquetas">
+<!ENTITY imagetoolbar.settings.customise.iconsize.key "I">
+<!ENTITY imagetoolbar.settings.customise.textlabels.key "T">
+<!ENTITY imagetoolbar.settings.advanced.size "Tamaño de la Imagen">
+<!ENTITY imagetoolbar.settings.advanced.width "Ancho Mínimo (px)">
+<!ENTITY imagetoolbar.settings.advanced.height "Alto Mínimo (px)">
+<!ENTITY imagetoolbar.settings.advanced.ctrl "Ignorar los valores al pulsar Ctrl">
+<!ENTITY imagetoolbar.settings.advanced.position "Posición">
+<!ENTITY imagetoolbar.settings.advanced.top "Desplazamiento superior (px)">
+<!ENTITY imagetoolbar.settings.advanced.left "Desplazamiento izquierdo (px)">
+<!ENTITY imagetoolbar.settings.advanced.relative "Relativo al cursor">
+<!ENTITY imagetoolbar.settings.advanced.delay "Retardo de apertura">
+<!ENTITY imagetoolbar.settings.advanced.time "Tiempo (ms)">

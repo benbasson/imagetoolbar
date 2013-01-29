@@ -1,0 +1,13 @@
+<!-- Image Toolbar Locale v0.6 -->
+
+<!ENTITY imagetoolbar.save "Uložit">
+<!ENTITY imagetoolbar.copy "Kopírovat">
+<!ENTITY imagetoolbar.print "Tisk">
+<!ENTITY imagetoolbar.info "Info">
+<!ENTITY imagetoolbar.folder "Složka">
+
+<!ENTITY imagetoolbar.save.key "U">
+<!ENTITY imagetoolbar.copy.key "K">
+<!ENTITY imagetoolbar.print.key "T">
+<!ENTITY imagetoolbar.info.key "I">
+<!ENTITY imagetoolbar.folder.key "S">

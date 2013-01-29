@@ -1,0 +1,10 @@
+<!ENTITY imagetoolbar.save "Kayıt">
+<!ENTITY imagetoolbar.copy "Kopya">
+<!ENTITY imagetoolbar.print "Yazdır">
+<!ENTITY imagetoolbar.info "Bilgi">
+<!ENTITY imagetoolbar.folder "Klasör">
+<!ENTITY imagetoolbar.save.key "K">
+<!ENTITY imagetoolbar.copy.key "O">
+<!ENTITY imagetoolbar.print.key "Y">
+<!ENTITY imagetoolbar.info.key "B">
+<!ENTITY imagetoolbar.folder.key "A">
