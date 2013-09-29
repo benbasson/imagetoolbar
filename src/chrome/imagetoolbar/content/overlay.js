@@ -648,64 +648,69 @@ var imagetoolbar = {
         file: targetFile,
         fileURL: imageURL
       };
-      
-      // not autosaving - show file picker
-      if (!autoSave) 
-      {
-        if (!getTargetFile(fpParams, false)) {
-          return false; // filepicker cancelled
-        };
-        
-        // reassign to result of filepicker
-        targetFile = fpParams.file;
-      }
-      
-      // otherwise ensure file is unique
-      else {
+            
+      // go on ahead and save the file directly
+      if (autoSave) {
+        // ensure file is unique
         // append the extension where necessary
         targetFile.leafName = getNormalizedLeafName(fpParams.fileInfo.fileName, fpParams.fileInfo.fileExt);
         // uniquify
         targetFile = imagetoolbar.getUniqueFilename(targetFile);
+        imagetoolbar._continueSave(targetFile, imageURL, contentDisposition, contentType, docURL, targetImage);
       }
-     
-      // AutoChosen allows us to dictate the chosen filename and location and automatically save
-      // This is handy, as it means that once the easy bits (picking a filename) are done, we can
-      // just throw the file at internalSave for processing ... 
-      var autoChosen = new AutoChosen (
-        targetFile        // prechosen file
-      , makeURI(imageURL) // uri to file
-      );
-      
-      // ... which is precisely what we're going to do
-      internalSave (
-        imageURL                  // url as string of file to be saved
-      , null                      // document to be saved
-      , null                      // default filename 
-      , contentDisposition        // content disposition header
-      , contentType               // content type
-      , false                     // bypass cache?
-      , titleKey                  // alternate title for filepicker
-      , autoChosen                // AutoChosen data, see above
-      , makeURI(docURL)           // referrer document as URI
-      , targetImage.ownerDocument // originating document
-      , false                     // skip prompt?
-      , null                      // cache key
-      );
-      
-      if (imagetoolbar.prefs.getBoolPref("behaviour.statusbar"))
-      {
-        // Reset timer
-        clearTimeout(imagetoolbar.statustimeout);
-        
-        // Generate and set string on status bar
-        var strings = document.getElementById("imagetoolbarStrings");
-        var saveString = strings.getString("imagesaving");
-        imagetoolbar.setStatusBar(saveString + " " + autoChosen.file.path);
-        
-        imagetoolbar.statustimeout = window.setTimeout(function(){
-          imagetoolbar.setStatusBar("");
-        }, 2000);
+      // not autosaving - show file picker (which now returns result async for some reason)
+      else {
+        getTargetFile(fpParams, function (aUserCancelledPicker) {
+          if (aUserCancelledPicker) {
+            return false;
+          }
+                
+          // reassign to result of filepicker
+          targetFile = fpParams.file;
+          imagetoolbar._continueSave(targetFile, imageURL, contentDisposition, contentType, docURL, targetImage);
+        }, false);
       }
+    }
+  },
+   
+  _continueSave: function (aTargetFile, aImageURL, aContentDisposition, aContentType, aDocURL, aTargetImage) {  
+    // AutoChosen allows us to dictate the chosen filename and location and automatically save
+    // This is handy, as it means that once the easy bits (picking a filename) are done, we can
+    // just throw the file at internalSave for processing ... 
+    var autoChosen = new AutoChosen (
+      aTargetFile        // prechosen file
+    , makeURI(aImageURL) // uri to file
+    );
+    
+    // ... which is precisely what we're going to do
+    internalSave (
+      aImageURL                  // url as string of file to be saved
+    , null                       // document to be saved
+    , null                       // default filename 
+    , aContentDisposition        // content disposition header
+    , aContentType               // content type
+    , false                      // bypass cache?
+    , null                       // alternate title for filepicker
+    , autoChosen                 // AutoChosen data, see above
+    , makeURI(aDocURL)           // referrer document as URI
+    , aTargetImage.ownerDocument // originating document
+    , false                      // skip prompt?
+    , null                       // cache key
+    );
+    
+    if (imagetoolbar.prefs.getBoolPref("behaviour.statusbar"))
+    {
+      // Reset timer
+      clearTimeout(imagetoolbar.statustimeout);
+      
+      // Generate and set string on status bar
+      var strings = document.getElementById("imagetoolbarStrings");
+      var saveString = strings.getString("imagesaving");
+      imagetoolbar.setStatusBar(saveString + " " + autoChosen.file.path);
+      
+      imagetoolbar.statustimeout = window.setTimeout(function(){
+        imagetoolbar.setStatusBar("");
+      }, 2000);
     }
   },
   
