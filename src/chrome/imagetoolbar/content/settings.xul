@@ -54,7 +54,7 @@
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
   buttons="accept, cancel"
   title="&imagetoolbar.settings.title;"
-  style="min-width:360px; height:300px;">
+  style="min-width:360px;">
 
   <prefpane id="imagetoolbar_pane">
 
