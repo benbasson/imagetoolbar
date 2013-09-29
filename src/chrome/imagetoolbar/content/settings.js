@@ -96,10 +96,12 @@
     var fph = ios.getProtocolHandler("file")
                  .QueryInterface(Components.interfaces.nsIFileProtocolHandler);
 
-    var currentDirPref = document.getElementById("imagetoolbar.imageFolder");
+    var currentDirPref = document.getElementById("imagetoolbar.imageFolder");    
     var downloadDir = currentDirPref.value;
-    var urlspec = fph.getURLSpecFromFile(downloadDir);
-    downloadFolder.image = "moz-icon://" + urlspec + "?size=16";
+    if (downloadDir != null && downloadDir.exists()) {
+      var urlspec = fph.getURLSpecFromFile(downloadDir);
+      downloadFolder.image = "moz-icon://" + urlspec + "?size=16";
+    }
     
     return undefined;
   }
