@@ -658,17 +658,23 @@ var imagetoolbar = {
         targetFile = imagetoolbar.getUniqueFilename(targetFile);
         imagetoolbar._continueSave(targetFile, imageURL, contentDisposition, contentType, docURL, targetImage);
       }
-      // not autosaving - show file picker (which now returns result async for some reason)
+      // not autosaving - show file picker
+      // helpfully this code has been broken twice in the last year due to refactoring in Firefox internals 
+      // that is not picked up in their compatiblity tests, so now we're using promise/then syntax instead 
+      // of an async callback, instead of just a function... this code really should be rewritten using 
+      // direct component access to avoid breaking every time a change is made in the toolkit code
       else {
-        getTargetFile(fpParams, function (aUserCancelledPicker) {
-          if (aUserCancelledPicker) {
+        promiseTargetFile(fpParams).then(aDialogAccepted => {
+          if (!aDialogAccepted) {
             return false;
           }
-                
+       
           // reassign to result of filepicker
           targetFile = fpParams.file;
           imagetoolbar._continueSave(targetFile, imageURL, contentDisposition, contentType, docURL, targetImage);
-        }, false);
+        }).then(null, function (aErrorMsg) {
+          imagetoolbar._outputError(aErrorMsg);
+        });
       }
     }
   },
