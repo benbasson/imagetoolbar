@@ -6,7 +6,7 @@
   <Description about="urn:mozilla:install-manifest">
   
     <em:id>{A4732521-77D9-447E-A557-B279AC923F06}</em:id>
-    <em:version>0.6.14</em:version>
+    <em:version>0.6.15</em:version>
     <em:name>Image Toolbar</em:name>
     <em:description>Provides easy access to common image functions.</em:description>
     <em:creator>Ben Basson</em:creator>
@@ -17,8 +17,8 @@
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>23.0</em:minVersion>
-        <em:maxVersion>25.0.*</em:maxVersion>
+        <em:minVersion>27.0</em:minVersion>
+        <em:maxVersion>27.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
     
