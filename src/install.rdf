@@ -10,7 +10,7 @@
     <em:name>Image Toolbar</em:name>
     <em:description>Provides easy access to common image functions.</em:description>
     <em:creator>Ben Basson</em:creator>
-    <em:homepageURL>http://www.cusser.net</em:homepageURL>
+    <em:homepageURL>http://www.basson.at/firefox-addons/imagetoolbar</em:homepageURL>
     <em:optionsURL>chrome://imagetoolbar/content/settings.xul</em:optionsURL>
     <em:type>2</em:type>
     
