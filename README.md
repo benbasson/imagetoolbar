@@ -18,10 +18,7 @@ Ctrl-clicking or middle-clicking will activate each button's secondary function,
 
 Installation
 ------------
-Drag and drop the latest XPI file from the build folder into a Firefox window. Alternatively, you can install the extension from:
-
- - https://addons.mozilla.org/en-US/firefox/addon/image-toolbar/
- - http://www.cusser.net/extensions/imagetoolbar/
+Drag and drop the latest XPI file from the build folder into a Firefox window. Alternatively, you can install the extension from https://addons.mozilla.org/en-US/firefox/addon/image-toolbar/
 
 Authors
 -------
