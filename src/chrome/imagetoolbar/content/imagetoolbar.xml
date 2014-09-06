@@ -43,7 +43,7 @@
   xmlns="http://www.mozilla.org/xbl"
   xmlns:xbl="http://www.mozilla.org/xbl">
  
-  <binding id="imagetoolbar">
+  <binding id="imagetoolbar" bindToUntrustedContent="true">
   
     <resources>
       <stylesheet src="chrome://imagetoolbar/skin/"/>
@@ -182,7 +182,7 @@
     
   </binding>
   
-  <binding id="img">
+  <binding id="img" bindToUntrustedContent="true">
   
     <handlers>
       <handler event="mouseover">
