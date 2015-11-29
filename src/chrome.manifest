@@ -1,6 +1,6 @@
 overlay	chrome://browser/content/browser.xul	chrome://imagetoolbar/content/overlay.xul
 
-content	imagetoolbar	chrome/imagetoolbar/content/
+content	imagetoolbar	chrome/imagetoolbar/content/ contentaccessible=yes
 
 locale  imagetoolbar  ar	  	chrome/imagetoolbar/locale/ar/
 locale  imagetoolbar  be-BY	  chrome/imagetoolbar/locale/be-BY/
