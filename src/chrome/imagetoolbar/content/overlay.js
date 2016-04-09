@@ -191,8 +191,8 @@ var imagetoolbar = {
     }
     else
     {
-      const imagetoolbarNS = "http://imgtoolbar.addons.mozilla.org/2005/v1";
-      const xhtmlNS = "http://www.w3.org/1999/xhtml";
+      var imagetoolbarNS = "http://imgtoolbar.addons.mozilla.org/2005/v1";
+      var xhtmlNS = "http://www.w3.org/1999/xhtml";
       
       var newToolbar = aDoc.createElementNS(imagetoolbarNS, "imagetoolbar");
       var toolbarDiv = aDoc.createElementNS(xhtmlNS,"div");
@@ -579,7 +579,7 @@ var imagetoolbar = {
     // otherwise do our own thing
     else 
     { 
-      const nsILocalFile = Components.interfaces.nsILocalFile;
+      var nsILocalFile = Components.interfaces.nsILocalFile;
       var contentDisposition = null;
       var contentType = null;
       var charset = getCharsetforSave(null);
@@ -780,7 +780,7 @@ var imagetoolbar = {
     {
       if (!(iframe = imagetoolbar.hiddenWindow.document.getElementById("imagetoolbar-iframe")))
       {
-        const xhtmlNS = "http://www.w3.org/1999/xhtml";
+        var xhtmlNS = "http://www.w3.org/1999/xhtml";
         var iframe = imagetoolbar.hiddenWindow.document.createElementNS(xhtmlNS,"iframe");
         var createdIframe = true;
         iframe.id = "imagetoolbar-iframe";
@@ -863,8 +863,8 @@ var imagetoolbar = {
   
   pickFolder: function ()
   {
-    const nsILocalFile = Components.interfaces.nsILocalFile;
-    const nsIFilePicker = Components.interfaces.nsIFilePicker;
+    var nsILocalFile = Components.interfaces.nsILocalFile;
+    var nsIFilePicker = Components.interfaces.nsIFilePicker;
     var fpService = Components.classes["@mozilla.org/filepicker;1"]
     var filePicker = fpService.createInstance(nsIFilePicker);
     var prefs = imagetoolbar.prefs;
@@ -894,7 +894,7 @@ var imagetoolbar = {
   
   getDir: function ()
   {
-    const nsILocalFile = Components.interfaces.nsILocalFile;
+    var nsILocalFile = Components.interfaces.nsILocalFile;
     var prefComponent = Components.classes["@mozilla.org/preferences-service;1"];    
     var prefService = prefComponent.getService(Components.interfaces.nsIPrefService);
     var ffprefs = prefService.getBranch("browser.download.");

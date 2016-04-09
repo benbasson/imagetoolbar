@@ -60,14 +60,14 @@
 
   chooseFolder: function ()
   {
-    const nsIFilePicker = Components.interfaces.nsIFilePicker;
+    var nsIFilePicker = Components.interfaces.nsIFilePicker;
     var fp = Components.classes["@mozilla.org/filepicker;1"]
                        .createInstance(nsIFilePicker);
     var strings = document.getElementById("imagetoolbarStrings");
     var title = strings.getString("choosedir");
     fp.init(window, title, nsIFilePicker.modeGetFolder);
     
-    const nsILocalFile = Components.interfaces.nsILocalFile;
+    var nsILocalFile = Components.interfaces.nsILocalFile;
     var customDirPref = document.getElementById("imagetoolbar.imageFolder");
     if (customDirPref.value)
       fp.displayDirectory = customDirPref.value;
