@@ -594,8 +594,8 @@ var imagetoolbar = {
                              .getImgCacheForDocument(targetImage.ownerDocument);
         var props = imageCache.findEntryProperties(makeURI(imageURL, getCharsetforSave(null)));
         if (props) {
-          contentType = props.get("type", nsISupportsCString);
-          contentDisposition = props.get("content-disposition", nsISupportsCString);
+          contentType = props.get("type", Components.interfaces.nsISupportsCString);
+          contentDisposition = props.get("content-disposition", Components.interfaces.nsISupportsCString);
         }
       } 
       catch (e) {
