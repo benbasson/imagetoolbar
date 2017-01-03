@@ -636,45 +636,37 @@ var imagetoolbar = {
         imagetoolbar._outputError("Image Toolbar error - tried to save invalid filename: '" + fileInfo.fileName + "'");
         return;
       }
-          
-      // init arbitrary object for filepicker params
-      var fpParams = {
-        fpTitleKey: titleKey,
-        isDocument: false,
-        fileInfo: fileInfo,
-        contentType: contentType,
-        saveMode: saveMode,
-        saveAsType: saveAsType,
-        file: targetFile,
-        fileURL: imageURL
-      };
-            
+
       // go on ahead and save the file directly
       if (autoSave) {
         // ensure file is unique
         // append the extension where necessary
-        targetFile.leafName = getNormalizedLeafName(fpParams.fileInfo.fileName, fpParams.fileInfo.fileExt);
+        targetFile.leafName = getNormalizedLeafName(fileInfo.fileName, fileInfo.fileExt);
         // uniquify
         targetFile = imagetoolbar.getUniqueFilename(targetFile);
         imagetoolbar._continueSave(targetFile, imageURL, contentDisposition, contentType, docURL, targetImage);
       }
       // not autosaving - show file picker
-      // helpfully this code has been broken twice in the last year due to refactoring in Firefox internals 
-      // that is not picked up in their compatiblity tests, so now we're using promise/then syntax instead 
-      // of an async callback, instead of just a function... this code really should be rewritten using 
-      // direct component access to avoid breaking every time a change is made in the toolkit code
       else {
-        promiseTargetFile(fpParams).then(aDialogAccepted => {
-          if (!aDialogAccepted) {
-            return false;
+        const nsIFilePicker = Components.interfaces.nsIFilePicker;
+        var fpService = Components.classes["@mozilla.org/filepicker;1"]
+        var filePicker = fpService.createInstance(nsIFilePicker);
+   
+        filePicker.displayDirectory = targetFile.parent;
+        filePicker.defaultString = targetFile.leafName;
+        filePicker.appendFilter(fileInfo.fileExt + " (*." + fileInfo.fileExt + ")", "*." + fileInfo.fileExt);
+        filePicker.appendFilters(nsIFilePicker.filterAll);
+        filePicker.init(window, null, nsIFilePicker.modeSave);
+
+        var result = filePicker.show();
+
+        if (result == nsIFilePicker.returnOK || result == nsIFilePicker.returnReplace) {
+          targetFile = filePicker.file;
+          if (filePicker.filterIndex == 0) { // append extension if selected filter != all files
+            targetFile.leafName = getNormalizedLeafName(targetFile.leafName, fileInfo.fileExt);
           }
-       
-          // reassign to result of filepicker
-          targetFile = fpParams.file;
           imagetoolbar._continueSave(targetFile, imageURL, contentDisposition, contentType, docURL, targetImage);
-        }).then(null, function (aErrorMsg) {
-          imagetoolbar._outputError(aErrorMsg);
-        });
+        }
       }
     }
   },
